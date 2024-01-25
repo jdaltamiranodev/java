@@ -13,10 +13,11 @@ public class Incremento_decremento {
         y = x++; // Se asigna el valor de x a y y despues se incrementa x en 1
         System.out.println(y); // 5
         System.out.println(x); // 6
+        
         y = ++x; // Se incrementa x en 1 y despues se asigna a y
         
-        System.out.println(y); // 6
-        System.out.println(x); // 6
+        System.out.println(y); // 7
+        System.out.println(x); // 7
     }
     
 }
