@@ -1,13 +1,13 @@
 /*
     Ejercicio 9: Pedir el día, mes y año de una fecha e indicar
-    si la fecha es correcta. Suponiendo que todos los meses son de
-    30 días.
+    si la fecha es correcta. Con meses de 28, 30 y 31 días. Sin años
+    bisiestos
 */
-package ejercicio_9;
+package ejercicio_10;
 
 import javax.swing.JOptionPane;
 
-public class Ejercicio_9 {
+public class Ejercicio_10 {
 
     public static void main(String[] args) {
         int dia, mes, anio;
@@ -16,7 +16,7 @@ public class Ejercicio_9 {
         mes = Integer.parseInt(JOptionPane.showInputDialog("Digite el mes: "));
         anio = Integer.parseInt(JOptionPane.showInputDialog("Digite el anio: "));
         
-        if(dia >= 1 && dia <= 30){
+        if(dia >= 1 && dia <= 31){
             if(mes >= 1 && mes <= 12){
                 if(anio != 0){
                     JOptionPane.showMessageDialog(null, "Fecha correcta");
